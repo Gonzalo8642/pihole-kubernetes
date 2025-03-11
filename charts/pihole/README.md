@@ -169,7 +169,7 @@ The following table lists the configurable parameters of the pihole chart and th
 | admin.enabled | bool | `true` | If set to false admin password will be disabled, adminPassword specified above and the pre-existing secret (if specified) will be ignored. |
 | admin.existingSecret | string | `""` | Specify an existing secret to use as admin password |
 | admin.passwordKey | string | `"password"` | Specify the key inside the secret to use |
-| adminPassword | string | `"admin"` | Administrator password when not using an existing secret (see below) |
+| adminPassword | string | `"admin"` | Administrator password when not using an existing secret (see above) |
 | affinity | object | `{}` |  |
 | antiaff.avoidRelease | string | `"pihole1"` | Here you can set the pihole release (you set in `helm install <releasename> ...`) you want to avoid |
 | antiaff.enabled | bool | `false` | set to true to enable antiaffinity (example: 2 pihole DNS in the same cluster) |
